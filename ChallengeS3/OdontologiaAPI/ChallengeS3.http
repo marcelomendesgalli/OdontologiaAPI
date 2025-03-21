@@ -1,0 +1,11 @@
+@ChallengeS3_HostAddress = http://localhost:5267
+
+GET {{ChallengeS3_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ChallengeS3_HostAddress}}/todos/1
+Accept: application/json
+
+###
